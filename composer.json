@@ -1,0 +1,19 @@
+{
+    "name": "better-php/shutdown-handler",
+    "description": "An advanced shutdown handler that can be manipulated after it's instantiated: deregister or re-register callbacks, retrieve and re-use the same handler instance at any time to prevent memory leaks in long-running PHP apps etc.",
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexandr Zolotukhin",
+            "email": "alex@alexandrz.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BetterPhp\\ShutdownHandler\\": "src"
+        }
+    }
+}
